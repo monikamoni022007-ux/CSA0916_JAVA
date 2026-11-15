@@ -1,8 +1,8 @@
 # Campus Smart-Parking System — Java Assignment 1
 
 **Course:** CSA09 – Java Programming
-**Student name:** Kavya Sree T
-**College register number:** 192524444
+**Student name:** Monika M
+**College register number:** 192521435
 **JDK:** OpenJDK 21
 **GitHub repository/link:** Pending repository creation and confirmed remote
 
@@ -24,7 +24,7 @@ The official PDF does not give the e-bike flat-fee amount. Supply the course-spe
 ## Compile all tasks and integrated sources (PowerShell)
 
 ```powershell
-cd "C:\Users\KAVYA SREE\JAVA 1"
+cd "C:\Users\MONIKA\JAVA 1"
 $javaFiles = Get-ChildItem -Recurse -Filter *.java |
     Where-Object { $_.FullName -notmatch '\\(out|build)\\' } |
     Select-Object -ExpandProperty FullName
