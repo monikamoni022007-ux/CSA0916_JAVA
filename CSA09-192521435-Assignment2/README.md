@@ -2,9 +2,9 @@
 
 ## Student details
 
-- Name: `kavyasree`
-- Register number: `192524444`
-- GitHub repository: `CSA09-192524444-Assignment2`
+- Name: `Monika M`
+- Register number: `192521435`
+- GitHub repository: `CSA09-192521435-Assignment2`
 - Java version: JDK 17 or newer
 
 Before submission, verify the student-name spelling and capitalization. See
@@ -140,7 +140,7 @@ conclusions are based on observed runs, not estimates.
 
 ## GitHub submission
 
-The intended repository name is `CSA09-192524444-Assignment2`. Create and share the
+The intended repository name is `CSA09-192521435-Assignment2`. Create and share the
 repository as required by the course. No repository has been created, configured, or
 pushed by this project setup; see the checklist for local Git instructions. Do not push
 without explicit authorization.
