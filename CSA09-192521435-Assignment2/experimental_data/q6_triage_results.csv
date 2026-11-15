@@ -1,0 +1,9 @@
+position,patient,severity,expected_patient,matches_expected
+1,Ben,1,Ben,true
+2,Fay,1,Fay,true
+3,Eli,2,Eli,true
+4,Hana,2,Hana,true
+5,Ava,3,Ava,true
+6,Cara,3,Cara,true
+7,Gus,3,Gus,true
+8,Dev,5,Dev,true

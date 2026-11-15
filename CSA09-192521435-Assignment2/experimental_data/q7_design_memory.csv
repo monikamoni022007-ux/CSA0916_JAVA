@@ -1,0 +1,3 @@
+approach,tickets,fields_per_ticket,estimated_string_objects,used_before_bytes,used_after_bytes,retained_heap_delta_bytes,outputs_retained,first_output_chars
+String +,10000,50,500000,2167816,10369344,8201528,10000,880
+Pre-sized StringBuilder,10000,50,10000,1120336,10494664,9374328,10000,880

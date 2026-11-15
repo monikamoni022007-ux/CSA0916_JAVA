@@ -1,0 +1,6 @@
+test_name,implementation,predicted,observed,hash_first,hash_second
+attendance_before_todo,equals_only,size=3,size=3,,
+same_reference,equals_only,size=1,size=1,999966131,999966131
+duplicate_instances,equals_only,size=2,size=2,1989780873,1480010240
+corrected_duplicates,equals_and_hashCode,size=2,size=2,,
+mutable_hash_field,mutable_hashCode,contains_after=false,contains_after=false,822376264,822376551

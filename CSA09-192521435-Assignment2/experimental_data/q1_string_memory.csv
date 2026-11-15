@@ -1,0 +1,10 @@
+workload,approach,ticket_count,fields_per_ticket,used_before_bytes,used_after_bytes,retained_heap_delta_bytes,outputs_retained,first_output_chars
+many_short_tickets,String +,20000,6,2160680,3916792,1756112,20000,96
+many_short_tickets,StringBuilder,20000,6,1116904,3916944,2800040,20000,96
+many_short_tickets,StringBuffer,20000,6,1116904,3916944,2800040,20000,96
+many_fields_per_ticket,String +,10000,50,1119864,10372264,9252400,10000,880
+many_fields_per_ticket,StringBuilder,10000,50,1119920,10391208,9271288,10000,880
+many_fields_per_ticket,StringBuffer,10000,50,1120344,10385216,9264872,10000,880
+long_ticket,String +,200,200,1131832,1897472,765640,200,3780
+long_ticket,StringBuilder,200,200,1131832,1897472,765640,200,3780
+long_ticket,StringBuffer,200,200,1131832,1897472,765640,200,3780

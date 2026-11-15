@@ -1,0 +1,46 @@
+workload,approach,ticket_count,fields_per_ticket,field_appends,run,elapsed_ns,estimated_string_objects,estimated_characters_copied
+many_short_tickets,String +,20000,6,120000,1,3427800,120000,6720000
+many_short_tickets,String +,20000,6,120000,2,3185700,120000,6720000
+many_short_tickets,String +,20000,6,120000,3,4415800,120000,6720000
+many_short_tickets,String +,20000,6,120000,4,5783400,120000,6720000
+many_short_tickets,String +,20000,6,120000,5,2531100,120000,6720000
+many_short_tickets,StringBuilder,20000,6,120000,1,7960700,20000,3840000
+many_short_tickets,StringBuilder,20000,6,120000,2,6456900,20000,3840000
+many_short_tickets,StringBuilder,20000,6,120000,3,5072200,20000,3840000
+many_short_tickets,StringBuilder,20000,6,120000,4,5207500,20000,3840000
+many_short_tickets,StringBuilder,20000,6,120000,5,8859900,20000,3840000
+many_short_tickets,StringBuffer,20000,6,120000,1,5597500,20000,3840000
+many_short_tickets,StringBuffer,20000,6,120000,2,6085200,20000,3840000
+many_short_tickets,StringBuffer,20000,6,120000,3,4862200,20000,3840000
+many_short_tickets,StringBuffer,20000,6,120000,4,4028300,20000,3840000
+many_short_tickets,StringBuffer,20000,6,120000,5,5005900,20000,3840000
+many_fields_per_ticket,String +,10000,50,500000,1,27949800,500000,220400000
+many_fields_per_ticket,String +,10000,50,500000,2,58448800,500000,220400000
+many_fields_per_ticket,String +,10000,50,500000,3,28972500,500000,220400000
+many_fields_per_ticket,String +,10000,50,500000,4,28520800,500000,220400000
+many_fields_per_ticket,String +,10000,50,500000,5,63920100,500000,220400000
+many_fields_per_ticket,StringBuilder,10000,50,500000,1,7416400,10000,17600000
+many_fields_per_ticket,StringBuilder,10000,50,500000,2,9684500,10000,17600000
+many_fields_per_ticket,StringBuilder,10000,50,500000,3,14595500,10000,17600000
+many_fields_per_ticket,StringBuilder,10000,50,500000,4,12062200,10000,17600000
+many_fields_per_ticket,StringBuilder,10000,50,500000,5,10930600,10000,17600000
+many_fields_per_ticket,StringBuffer,10000,50,500000,1,10652000,10000,17600000
+many_fields_per_ticket,StringBuffer,10000,50,500000,2,12008700,10000,17600000
+many_fields_per_ticket,StringBuffer,10000,50,500000,3,12119900,10000,17600000
+many_fields_per_ticket,StringBuffer,10000,50,500000,4,10357400,10000,17600000
+many_fields_per_ticket,StringBuffer,10000,50,500000,5,7639600,10000,17600000
+long_ticket,String +,200,200,40000,1,12865800,40000,73598000
+long_ticket,String +,200,200,40000,2,11643100,40000,73598000
+long_ticket,String +,200,200,40000,3,11822200,40000,73598000
+long_ticket,String +,200,200,40000,4,15925500,40000,73598000
+long_ticket,String +,200,200,40000,5,18663000,40000,73598000
+long_ticket,StringBuilder,200,200,40000,1,806500,200,1512000
+long_ticket,StringBuilder,200,200,40000,2,634800,200,1512000
+long_ticket,StringBuilder,200,200,40000,3,1348700,200,1512000
+long_ticket,StringBuilder,200,200,40000,4,535500,200,1512000
+long_ticket,StringBuilder,200,200,40000,5,582700,200,1512000
+long_ticket,StringBuffer,200,200,40000,1,1483700,200,1512000
+long_ticket,StringBuffer,200,200,40000,2,2291700,200,1512000
+long_ticket,StringBuffer,200,200,40000,3,877500,200,1512000
+long_ticket,StringBuffer,200,200,40000,4,923600,200,1512000
+long_ticket,StringBuffer,200,200,40000,5,896500,200,1512000

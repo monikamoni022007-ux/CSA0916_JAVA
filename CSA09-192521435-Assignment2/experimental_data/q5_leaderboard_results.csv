@@ -1,0 +1,17 @@
+test_name,position,observed_result,points,goal_difference,expected_result,matches_expected
+assignment_expected_output,1,Eagles,9,6,Eagles,true
+assignment_expected_output,2,Bisons,9,4,Bisons,true
+assignment_expected_output,3,Panthers,9,4,Panthers,true
+assignment_expected_output,4,Cobras,6,1,Cobras,true
+multiple_tied_scores,1,Bears,12,8,Bears,true
+multiple_tied_scores,2,Hawks,12,8,Hawks,true
+multiple_tied_scores,3,Falcons,12,5,Falcons,true
+multiple_tied_scores,4,Wolves,12,5,Wolves,true
+multiple_tied_scores,5,Lions,10,5,Lions,true
+multiple_tied_scores,6,Tigers,10,5,Tigers,true
+faulty_comparator_transitivity,1,-1,2147483647,0,-1 (Maximum before Middle),true
+faulty_comparator_transitivity,2,-1,0,0,-1 (Middle before Minimum),true
+faulty_comparator_transitivity,3,1,2147483647,0,-1 (Maximum before Minimum),false
+faulty_sorted_output,1,Minimum,-2147483648,0,Maximum,false
+faulty_sorted_output,2,Maximum,2147483647,0,Middle,false
+faulty_sorted_output,3,Middle,0,0,Minimum,false
