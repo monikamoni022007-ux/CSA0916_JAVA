@@ -1,0 +1,15 @@
+JFrame: Hospital Outpatient Appointment Desk
+├── JPanel: formPanel
+│   ├── JLabel: Patient ID
+│   ├── JTextField: patientIdField
+│   ├── JLabel: Department
+│   ├── JComboBox: departmentCombo
+│   ├── JLabel: Doctor
+│   ├── JComboBox: doctorCombo
+│   ├── JLabel: Time Slot
+│   ├── JComboBox: slotCombo
+│   ├── JLabel: Status
+│   └── JLabel: statusLabel
+├── JPanel: buttonPanel
+│   └── JButton: Book Appointment
+└── WindowListener: windowClosing -> dispose()
